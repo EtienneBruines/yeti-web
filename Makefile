@@ -93,7 +93,7 @@ config/click_house.yml:
 
 config/secrets.yml:
 	$(info:msg=Creating secrets.yml for tests)
-	cp config/secrets.yml.distr config/secrets.yml
+	echo "fa94256290aa63e934c58071d49126af" > config/credentials/test.key
 
 config/yeti_web.yml:
 	$(info:msg=Creating yeti_web.yml for build/tests)
